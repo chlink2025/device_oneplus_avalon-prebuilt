@@ -115,6 +115,7 @@
 /lib/modules/coresight-csr.ko: /lib/modules/coresight.ko
 /lib/modules/minidump.ko: /lib/modules/qcom_dma_heaps.ko /lib/modules/msm_dma_iommu_mapping.ko /lib/modules/mem_buf_dev.ko /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko /lib/modules/gh_rm_drv.ko /lib/modules/gh_msgq.ko /lib/modules/gh_dbl.ko /lib/modules/gh_arm_drv.ko /lib/modules/oplus_bsp_mm_osvelte.ko /lib/modules/smem.ko /lib/modules/debug_symbol.ko
 /lib/modules/crm.ko: /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/qcom_dma_heaps.ko /lib/modules/msm_dma_iommu_mapping.ko /lib/modules/mem_buf_dev.ko /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko /lib/modules/gh_rm_drv.ko /lib/modules/gh_msgq.ko /lib/modules/gh_dbl.ko /lib/modules/gh_arm_drv.ko /lib/modules/oplus_bsp_mm_osvelte.ko /lib/modules/smem.ko /lib/modules/debug_symbol.ko
+/lib/modules/oplus_exit_mm_optimize.ko: /lib/modules/oplus_bsp_hybridswap_zram.ko /lib/modules/oplus_bsp_zsmalloc.ko /lib/modules/oplus_bsp_schedinfo.ko /lib/modules/oplus_bsp_sched_assist.ko /lib/modules/oplus_bsp_eas_opt.ko /lib/modules/panel_event_notifier.ko
 /lib/modules/oplus_connectivity_sla.ko:
 /lib/modules/qti_qmi_cdev.ko: /lib/modules/qmi_helpers.ko
 /lib/modules/altmode-glink.ko: /lib/modules/pmic_glink.ko /lib/modules/pdr_interface.ko /lib/modules/qmi_helpers.ko /lib/modules/rproc_qcom_common.ko /lib/modules/qcom_smd.ko /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qcom_aoss.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/qcom_dma_heaps.ko /lib/modules/msm_dma_iommu_mapping.ko /lib/modules/mem_buf_dev.ko /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko /lib/modules/gh_rm_drv.ko /lib/modules/gh_msgq.ko /lib/modules/gh_dbl.ko /lib/modules/gh_arm_drv.ko /lib/modules/oplus_bsp_mm_osvelte.ko /lib/modules/smem.ko /lib/modules/debug_symbol.ko
@@ -138,7 +139,7 @@
 /lib/modules/oplus_bsp_tp_ft3683g.ko: /lib/modules/oplus_bsp_tp_focal_common.ko /lib/modules/oplus_bsp_tp_common.ko /lib/modules/device_info.ko /lib/modules/oplus_bsp_fw_update.ko /lib/modules/oplus_bsp_tp_notify.ko /lib/modules/boot_mode.ko /lib/modules/oplus_charger_present.ko /lib/modules/oplus_ftm_mode.ko /lib/modules/oplus_bsp_tp_custom.ko /lib/modules/oplus_bsp_boot_projectinfo.ko /lib/modules/buildvariant.ko /lib/modules/olc.ko /lib/modules/panel_event_notifier.ko /lib/modules/oplusboot.ko /lib/modules/smem.ko
 /lib/modules/qcom-cpufreq-hw.ko: /lib/modules/cpufreq_bouncing.ko /lib/modules/oplus_bsp_cpufreq_health.ko /lib/modules/oplus_bsp_omrg.ko
 /lib/modules/crc-itu-t.ko:
-/lib/modules/msm_performance.ko: /lib/modules/sched-walt.ko /lib/modules/qcom-cpufreq-hw.ko /lib/modules/cpufreq_bouncing.ko /lib/modules/oplus_bsp_cpufreq_health.ko /lib/modules/oplus_bsp_omrg.ko /lib/modules/oplus_bsp_task_overload.ko /lib/modules/oplus_bsp_frame_boost.ko /lib/modules/oplus_bsp_sched_assist.ko /lib/modules/oplus_bsp_eas_opt.ko /lib/modules/qcom-pmu-lib.ko /lib/modules/qcom_llcc_pmu.ko /lib/modules/qcom_scmi_client.ko
+/lib/modules/msm_performance.ko: /lib/modules/sched-walt.ko /lib/modules/qcom-cpufreq-hw.ko /lib/modules/cpufreq_bouncing.ko /lib/modules/oplus_bsp_cpufreq_health.ko /lib/modules/oplus_bsp_omrg.ko /lib/modules/oplus_bsp_task_overload.ko /lib/modules/oplus_bsp_frame_boost.ko /lib/modules/qcom-pmu-lib.ko /lib/modules/qcom_llcc_pmu.ko /lib/modules/oplus_bsp_sched_assist.ko /lib/modules/oplus_bsp_eas_opt.ko /lib/modules/qcom_scmi_client.ko
 /lib/modules/qcom_glink_smem.ko: /lib/modules/qcom_glink.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/qcom_dma_heaps.ko /lib/modules/msm_dma_iommu_mapping.ko /lib/modules/mem_buf_dev.ko /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko /lib/modules/gh_rm_drv.ko /lib/modules/gh_msgq.ko /lib/modules/gh_dbl.ko /lib/modules/gh_arm_drv.ko /lib/modules/oplus_bsp_mm_osvelte.ko /lib/modules/smem.ko /lib/modules/debug_symbol.ko
 /lib/modules/cdsprm.ko:
 /lib/modules/rpmh-regulator.ko: /lib/modules/qcom_rpmh.ko /lib/modules/cmd-db.ko /lib/modules/debug-regulator.ko /lib/modules/proxy-consumer.ko /lib/modules/crm.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/qcom_dma_heaps.ko /lib/modules/msm_dma_iommu_mapping.ko /lib/modules/mem_buf_dev.ko /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko /lib/modules/gh_rm_drv.ko /lib/modules/gh_msgq.ko /lib/modules/gh_dbl.ko /lib/modules/gh_arm_drv.ko /lib/modules/oplus_bsp_mm_osvelte.ko /lib/modules/smem.ko /lib/modules/debug_symbol.ko
@@ -177,6 +178,7 @@
 /lib/modules/horae_shell_temp.ko:
 /lib/modules/coresight-replicator.ko: /lib/modules/coresight.ko
 /lib/modules/qcom_enhance_watchdog.ko:
+/lib/modules/oplus_network_vip_task.ko: /lib/modules/oplus_network_data_module.ko
 /lib/modules/olc.ko:
 /lib/modules/kernel_fb.ko:
 /lib/modules/snd-soc-hdmi-codec.ko:
@@ -334,6 +336,7 @@
 /lib/modules/oplus_wificapcenter.ko:
 /lib/modules/qcom_pil_info.ko:
 /lib/modules/nvmem_qfprom.ko:
+/lib/modules/oplus_network_dns_cache.ko: /lib/modules/oplus_network_data_module.ko
 /lib/modules/camcc-volcano.ko: /lib/modules/clk-qcom.ko /lib/modules/gdsc-regulator.ko /lib/modules/debug-regulator.ko /lib/modules/proxy-consumer.ko /lib/modules/crm.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/qcom_dma_heaps.ko /lib/modules/msm_dma_iommu_mapping.ko /lib/modules/mem_buf_dev.ko /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko /lib/modules/gh_rm_drv.ko /lib/modules/gh_msgq.ko /lib/modules/gh_dbl.ko /lib/modules/gh_arm_drv.ko /lib/modules/oplus_bsp_mm_osvelte.ko /lib/modules/smem.ko /lib/modules/debug_symbol.ko
 /lib/modules/oplus_bsp_dfr_dump_device_info.ko: /lib/modules/oplus_bsp_boot_projectinfo.ko /lib/modules/buildvariant.ko /lib/modules/oplusboot.ko /lib/modules/smem.ko /lib/modules/debug_symbol.ko
 /lib/modules/pinctrl-msm.ko: /lib/modules/qcom-scm.ko /lib/modules/gh_rm_drv.ko /lib/modules/gh_msgq.ko /lib/modules/gh_dbl.ko /lib/modules/gh_arm_drv.ko

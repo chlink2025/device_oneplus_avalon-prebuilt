@@ -262,12 +262,14 @@ oplus_bsp_zram_opt.ko
 oplus_bsp_zsmalloc.ko
 oplus_connectivity_routerboost.ko
 oplus_connectivity_sla.ko
+oplus_exit_mm_optimize.ko
 oplus_freqqos_monitor.ko
 oplus_ipa_thermal.ko
 oplus_locking_strategy.ko
 oplus_lock_torture.ko
 oplus_network_app_monitor.ko
 oplus_network_data_module.ko
+oplus_network_dns_cache.ko
 oplus_network_dns_hook.ko
 oplus_network_esim.ko
 oplus_network_game_first.ko
@@ -285,6 +287,7 @@ oplus_network_sim_detect.ko
 oplus_network_snapshot.ko
 oplus_network_stats_calc.ko
 oplus_network_tuning.ko
+oplus_network_vip_task.ko
 oplus_network_vnet.ko
 oplus_power_hook.ko
 oplus_secure_common.ko

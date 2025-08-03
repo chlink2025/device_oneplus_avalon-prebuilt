@@ -652,8 +652,6 @@ alias of:N*T*Cqcom,pm7325-gpio pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm7325-gpioC* pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm8005-gpio pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm8005-gpioC* pinctrl_spmi_gpio
-alias of:N*T*Cqcom,pm8008-gpio pinctrl_spmi_gpio
-alias of:N*T*Cqcom,pm8008-gpioC* pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm8019-gpio pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm8019-gpioC* pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm8150-gpio pinctrl_spmi_gpio
